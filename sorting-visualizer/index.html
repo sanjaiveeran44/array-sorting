@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧮 Array Sorting App</h1>
+
+    <input id="numbersInput" placeholder="Enter numbers (e.g. 3,5,1,2)" />
+
+    <select id="algorithmSelect">
+      <option value="bubble">Bubble Sort</option>
+      <option value="selection">Selection Sort</option>
+      <option value="merge">Merge Sort</option>
+      <option value="quick">Quick Sort</option>
+    </select>
+
+    <button onclick="sortArray()">Sort</button>
+    <div id="bars"></div>
+    <div id="result"></div>
+    <div id="complexity"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
